@@ -21,18 +21,18 @@
         if (secondArg !== 0){
           vm.result = firstArg / secondArg;
         } else {
-          vm.result = 'Cannot divide by zero'
+          vm.result = 'Cannot divide by zero';
         }
       } else if(operator === 'multiply'){
         if (firstArg !== 0 && secondArg !== 0){
           vm.result = firstArg * secondArg;
         } else {
-          vm.result = 'Cannot multiply by zero'
+          vm.result = 'Cannot multiply by zero';
         }
       }
       else {
         vm.result = 'Operator not implemented';
       }
     }
-  };
+  }
 }());
